@@ -4,7 +4,6 @@ public class Simduck {
 	
 	public static void main(String[] args){
 	
-		//MallardDuck mallard = new MallardDuck();
 		RedheadDuck redread = new Simduck().new RedheadDuck();
 		RubberDuck rubberduck = new Simduck().new RubberDuck();
 		MallardDuck mallard = new Simduck().new MallardDuck();
