@@ -48,7 +48,7 @@
       <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="48,117"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="observer.tape2/WeatherData-Standard::Call->observer.tape2/Observer*observer.tape2/WeatherData-Soyatec::Import->observer.tape2/Observer" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="observer.tape2/WeatherData->Standard::Call" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
       <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="167,28" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="23,81"/>
@@ -97,7 +97,7 @@
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,7" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="99,78"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="observer.tape2/ForecastDisplay-Soyatec::Import->observer.tape2/Subject*observer.tape2/ForecastDisplay-Standard::Call->observer.tape2/Subject" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.4/@children.2" label="//@children.3/@sourceConnections.4/@children.0" sourceEnd="//@children.3/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="observer.tape2/ForecastDisplay->Soyatec::Import" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.4/@children.2" label="//@children.3/@sourceConnections.4/@children.0" sourceEnd="//@children.3/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
       <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,31" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="136,86"/>
@@ -136,7 +136,7 @@
       <children xsi:type="editmodel:AssociationEndEditModel" location="101,0" anchorKind="FixedAtEdge" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="70,81" anchorKind="FixedAtEdge"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="observer.tape2/CurrentConditionsDisplay-Standard::Call->observer.tape2/Subject*observer.tape2/CurrentConditionsDisplay-Soyatec::Import->observer.tape2/Subject" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="observer.tape2/CurrentConditionsDisplay->Standard::Call" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
       <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="30,0" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="136,107"/>

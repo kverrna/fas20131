@@ -1,17 +1,16 @@
-package strategy.tape3;
+package strategy.pratica;
 
 public class RubberDuck extends Duck {
 
 	public RubberDuck(){
-		quackbehavior = new Squeak();
-		flybehavior = new FlyNoWay(); 
-				}
+		quackbehavior = new Quack();
+		flybehavior = new FlyNoWay();
+		feedbehavior = new FeedNothing();
+	}
 	
 	@Override 
 	public void display(){
 		
 		System.out.println("I'm a real Rubber Duck");
 	}
-	
-
 }

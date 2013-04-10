@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1194,757" id="strategy.tape3" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204641532F666162726963696F2E6272617A">
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="tape3.strategy" size="893,268" id="strategy.tape3" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204641532F666162726963696F2E6272617A">
   <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.2/@sourceConnections.0" name="Duck" location="465,15" size="128,121" id="strategy.tape3/Duck" runTimeClassModel="swimm(),performaQuack(),display(),performFly()">
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="105,72">
@@ -9,24 +9,24 @@
       <children xsi:type="editmodel:MethodEditModel" name="swimm" id="strategy.tape3/Duck#swimm()"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="strategy.tape3/Duck->Standard::Call" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
-      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="128,75" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,77"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="strategy.tape3/Duck->Standard::Call" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
-      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,75" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="139,40"/>
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
   <children xsi:type="editmodel:ClassEditModel" name="MuteQuack" location="365,181" size="113,67" id="strategy.tape3/MuteQuack" runTimeClassModel="quack()">
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
       <children xsi:type="editmodel:MethodEditModel" name="quack" id="strategy.tape3/MuteQuack#quack()"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="strategy.tape3/QuackBehavior&lt;-strategy.tape3/MuteQuack" source="//@children.1" target="//@children.3/@sourceConnections.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
       <children xsi:type="editmodel:AssociationEndEditModel" location="56,0" anchorKind="FixedAtEdge" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel"/>
@@ -39,11 +39,11 @@
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
   <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.1/@sourceConnections.1 //@children.3/@sourceConnections.1 //@children.4/@sourceConnections.1 //@children.0/@sourceConnections.1" name="QuackBehavior" location="225,50" size="139,81" id="strategy.tape3/QuackBehavior" runTimeClassModel="quack()">
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
       <children xsi:type="editmodel:MethodEditModel" name="quack" id="strategy.tape3/QuackBehavior#quack()"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="strategy.tape3/QuackBehavior@quackbehavior+strategy.tape3/Duck@" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" name="quackbehavior" location="139,71" id="strategy.tape3/QuackBehavior@quackbehavior+strategy.tape3/Duck@|strategy.tape3/QuackBehavior#quackbehavior" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
@@ -55,11 +55,11 @@
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
   <children xsi:type="editmodel:ClassEditModel" name="Quack" location="133,181" size="82,67" id="strategy.tape3/Quack" runTimeClassModel="quack()">
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
       <children xsi:type="editmodel:MethodEditModel" name="quack" id="strategy.tape3/Quack#quack()"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.1/@sourceConnections.0" autoLocated="true" id="strategy.tape3/QuackBehavior&lt;-strategy.tape3/Quack" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
       <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" anchorKind="FixedAtEdge" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="19,81" anchorKind="FixedAtEdge"/>
@@ -72,11 +72,11 @@
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
   <children xsi:type="editmodel:ClassEditModel" name="Squeak" location="245,181" size="90,67" id="strategy.tape3/Squeak" runTimeClassModel="quack()">
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
       <children xsi:type="editmodel:MethodEditModel" name="quack" id="strategy.tape3/Squeak#quack()"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="strategy.tape3/QuackBehavior&lt;-strategy.tape3/Squeak" source="//@children.4" target="//@children.3/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
       <children xsi:type="editmodel:AssociationEndEditModel" location="45,0" anchorKind="FixedAtEdge" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel"/>
@@ -89,11 +89,11 @@
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
   <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.7/@sourceConnections.1 //@children.6/@sourceConnections.1 //@children.0/@sourceConnections.0" name="FlyBehavior" location="675,50" size="118,81" id="strategy.tape3/FlyBehavior" runTimeClassModel="fly()">
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="42,18">
       <children xsi:type="editmodel:MethodEditModel" name="fly" id="strategy.tape3/FlyBehavior#fly()"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="strategy.tape3/FlyBehavior@flybehavior+strategy.tape3/Duck@" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" name="flybehavior" location="0,40" id="strategy.tape3/FlyBehavior@flybehavior+strategy.tape3/Duck@|strategy.tape3/FlyBehavior#flybehavior" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
@@ -105,11 +105,11 @@
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
   <children xsi:type="editmodel:ClassEditModel" name="FlyWithWings" location="744,181" size="129,67" id="strategy.tape3/FlyWithWings" runTimeClassModel="fly()">
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="42,18">
       <children xsi:type="editmodel:MethodEditModel" name="fly" id="strategy.tape3/FlyWithWings#fly()"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="strategy.tape3/FlyBehavior&lt;-strategy.tape3/FlyWithWings" source="//@children.6" target="//@children.7/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
       <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" anchorKind="FixedAtEdge" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel"/>
@@ -122,11 +122,11 @@
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
   <children xsi:type="editmodel:ClassEditModel" name="FlyNoWay" location="608,181" size="106,67" id="strategy.tape3/FlyNoWay" runTimeClassModel="fly()">
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="42,18">
       <children xsi:type="editmodel:MethodEditModel" name="fly" id="strategy.tape3/FlyNoWay#fly()"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.6/@sourceConnections.0" autoLocated="true" id="strategy.tape3/FlyBehavior&lt;-strategy.tape3/FlyNoWay" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
       <children xsi:type="editmodel:AssociationEndEditModel" location="96,0" anchorKind="FixedAtEdge" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="29,81" anchorKind="FixedAtEdge"/>
