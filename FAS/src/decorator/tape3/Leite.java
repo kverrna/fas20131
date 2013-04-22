@@ -1,5 +1,6 @@
 package decorator.tape3;
 
+
 public class Leite extends CondimentosDecorator {
 	Bebida bebidaWrapped;
 	@Override
@@ -15,8 +16,7 @@ public class Leite extends CondimentosDecorator {
 
 		@Override
 		public float preco() {
-			// TODO Auto-generated method stub
-			return .90f + bebidaWrapped.preco();
+			return .50f + bebidaWrapped.preco();
 		}
 
 }

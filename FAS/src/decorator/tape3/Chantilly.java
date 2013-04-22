@@ -3,16 +3,23 @@ package decorator.tape3;
 
 public class Chantilly extends CondimentosDecorator {
 
+	Bebida bebidaWrapped;
+	
 	@Override
 	public String getDescricao() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.bebidaWrapped.getDescricao() + ", Chantilly";
 	}
 
 	@Override
 	public float preco() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 0.30f + bebidaWrapped.preco();
 	}
+
+		
+		/**
+		 */
+		public Chantilly(Bebida bebidaWrapped){
+			this.bebidaWrapped= bebidaWrapped;
+		}
 
 }
