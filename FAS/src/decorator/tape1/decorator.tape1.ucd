@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="decorator.tape1" size="951,516" id="decorator.tape0" metadata="uml2-1.0" initialized="true" scrolledY="-35" tag="1000" key="32303037303533312D31303030204641532F666162726963696F2E6272617A">
+  <children xsi:type="editmodel:ClassEditModel" name="MisturaDaCasa" location="330,480" size="136,81" id="decorator.tape1/MisturaDaCasa" runTimeClassModel="preco()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="preco" id="decorator.tape1/MisturaDaCasa#preco()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="decorator.tape1/Bebida&lt;-decorator.tape1/MisturaDaCasa" source="//@children.0" target="//@children.1/@sourceConnections.0" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,226"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Descafeinado" location="60,480" size="128,81" id="decorator.tape1/Descafeinado" runTimeClassModel="preco()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="preco" id="decorator.tape1/Descafeinado#preco()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.0/@sourceConnections.0 //@children.2/@sourceConnections.0" autoLocated="true" id="decorator.tape1/Bebida&lt;-decorator.tape1/Descafeinado" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,456" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TorraEscura" location="495,480" size="117,81" id="decorator.tape1/TorraEscura" runTimeClassModel="preco()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="preco" id="decorator.tape1/TorraEscura#preco()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="decorator.tape1/Bebida&lt;-decorator.tape1/TorraEscura" source="//@children.2" target="//@children.1/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,226"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Expresso" location="210,480" size="99,81" id="decorator.tape1/Expresso" runTimeClassModel="preco()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="preco" id="decorator.tape1/Expresso#preco()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="decorator.tape1/Bebida&lt;-decorator.tape1/Expresso" source="//@children.3" target="//@children.1/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="49,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,226"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="Bebida" location="255,-30" size="141,459" id="decorator.tape1/Bebida" runTimeClassModel="hasChantilly(),setChantilly(Z),valorSoja,chantilly,leite,setChocolate(Z),hasSoja(),descricao,valorChantilly,valorChocolate,chocolate,preco(),hasChocolate(),setSoja(Z),getDescricao(),milk,setDescricao(Ljava.lang.String;),setMilk(Z),hasLeite(),soja,setLeite(Z),valorLeite,hasMilk()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,162">
+      <children xsi:type="editmodel:AttributeEditModel" name="chantilly" id="decorator.tape1/Bebida#chantilly"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="valorSoja" id="decorator.tape1/Bebida#valorSoja"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="valorLeite" id="decorator.tape1/Bebida#valorLeite"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="valorChantilly" id="decorator.tape1/Bebida#valorChantilly"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="valorChocolate" id="decorator.tape1/Bebida#valorChocolate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="descricao" id="decorator.tape1/Bebida#descricao"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="chocolate" id="decorator.tape1/Bebida#chocolate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="milk" id="decorator.tape1/Bebida#milk"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="soja" id="decorator.tape1/Bebida#soja"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,234">
+      <children xsi:type="editmodel:MethodEditModel" name="getDescricao" id="decorator.tape1/Bebida#getDescricao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasChantilly" id="decorator.tape1/Bebida#hasChantilly()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasChocolate" id="decorator.tape1/Bebida#hasChocolate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasLeite" id="decorator.tape1/Bebida#hasLeite()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasMilk" id="decorator.tape1/Bebida#hasMilk()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasSoja" id="decorator.tape1/Bebida#hasSoja()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="preco" id="decorator.tape1/Bebida#preco()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setChantilly" id="decorator.tape1/Bebida#setChantilly(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setChocolate" id="decorator.tape1/Bebida#setChocolate(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDescricao" id="decorator.tape1/Bebida#setDescricao(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLeite" id="decorator.tape1/Bebida#setLeite(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMilk" id="decorator.tape1/Bebida#setMilk(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSoja" id="decorator.tape1/Bebida#setSoja(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="883,709" id="observer.tape2" metadata="uml2-1.0" initialized="true" scrolledY="57" tag="1000" key="32303037303533312D31303030204641532F666162726963696F2E6272617A">
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="883,709" id="observer.tape2" metadata="uml2-1.0" initialized="true" scrolledY="51" tag="1000" key="32303037303533312D31303030204641532F666162726963696F2E6272617A">
   <children xsi:type="editmodel:ClassEditModel" name="StatsDisplay" location="705,240" size="119,103" id="observer.tape2/StatsDisplay" runTimeClassModel="display(),StatsDisplay(Lobserver.tape2.WeatherData;),update(FFF)">
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="90,54">
@@ -18,7 +18,7 @@
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" name="WeatherData" location="50,217" size="167,319" id="observer.tape2/WeatherData" runTimeClassModel="measurementsChanged(),pressure,registerObserver(Lobserver.tape2.Observer;),setPressure(F),setTemperature(F),getPressure(),WeatherData(),getTemperature(),temperature,setMeasurements(FFF),getHumidity(),humidity,setHumidity(F),notifyObservers(),removeObserver(Lobserver.tape2.Observer;)">
+  <children xsi:type="editmodel:ClassEditModel" name="WeatherData" location="50,217" size="167,319" id="observer.tape2/WeatherData" runTimeClassModel="measurementsChanged(),pressure,registerObserver(Lobserver.tape2.Observer;),setPressure(F),setTemperature(F),getPressure(),WeatherData(),getTemperature(),temperature,setMeasurements(FFF),humidity,getHumidity(),setHumidity(F),notifyObservers(),removeObserver(Lobserver.tape2.Observer;)">
     <children xsi:type="editmodel:CompartmentEditModel" size="104,54">
       <children xsi:type="editmodel:AttributeEditModel" name="humidity" id="observer.tape2/WeatherData#humidity"/>
       <children xsi:type="editmodel:AttributeEditModel" name="pressure" id="observer.tape2/WeatherData#pressure"/>
