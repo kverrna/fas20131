@@ -1,17 +1,15 @@
 package decorator.tape3;
 
-
-
 public class Descafeinado extends Bebida {
-	
+
 	@Override
-	public String getDescricao(){
-		return "Café Descafeinado";
+	public String getDescricao() {
+		return "Cafe Descafeinado";
 	}
 
 	@Override
-	public float preco() {
-		return 2.50f ;
+	public double preco() {
+		return 2.5;
 
 	}
 
