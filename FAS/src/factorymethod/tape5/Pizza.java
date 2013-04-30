@@ -16,9 +16,7 @@ public class Pizza {
 		System.out.println("Adicionando os ingredientes: ");
 		for (int i = 0; i < ingredientes.size(); i++) {
 			System.out.println("   " + ingredientes.get(i));
-
 		}
-
 	}
 
 	public void assar() {
