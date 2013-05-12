@@ -25,16 +25,13 @@ public abstract class Pizza {
 
 	public void cortar() {
 		System.out.println("Cortando a pizza em pedaços diagonais");
-
 	}
 
 	public void empacotar() {
 		System.out.println("Empacotando a pizza com a caixa oficial da Pizzaria UnB");
-
 	}
 
 	String getName() {
 		return nome;
 	}
-
 }
