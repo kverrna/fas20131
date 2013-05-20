@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="890,342" id="command.tape0" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204641532F666162726963696F2E6272617A">
+  <children xsi:type="editmodel:ClassEditModel" name="Banheira" location="60,25" size="143,121" id="command.tape0/Banheira" runTimeClassModel="definirTemperatura(I),desligarJato(),ligarJato(),circularAgua()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,72">
+      <children xsi:type="editmodel:MethodEditModel" name="circularAgua" id="command.tape0/Banheira#circularAgua()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="definirTemperatura" id="command.tape0/Banheira#definirTemperatura(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desligarJato" id="command.tape0/Banheira#desligarJato()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ligarJato" id="command.tape0/Banheira#ligarJato()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Aquecedor" location="225,25" size="143,67" id="command.tape0/Aquecedor" runTimeClassModel="definirTemperatura(I),SistemaDeSeguranca()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,18">
+      <children xsi:type="editmodel:MethodEditModel" name="definirTemperatura" id="command.tape0/Aquecedor#definirTemperatura(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SistemaDeSeguranca" location="405,25" size="179,85" id="command.tape0/SistemaDeSeguranca" runTimeClassModel="armar(),desarmar()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="76,36">
+      <children xsi:type="editmodel:MethodEditModel" name="armar" id="command.tape0/SistemaDeSeguranca#armar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desarmar" id="command.tape0/SistemaDeSeguranca#desarmar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Tv" location="210,109" size="118,121" id="command.tape0/Tv" runTimeClassModel="definirCanal(I),definirVolume(I),ligar(),desligar()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,72">
+      <children xsi:type="editmodel:MethodEditModel" name="definirCanal" id="command.tape0/Tv#definirCanal(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="definirVolume" id="command.tape0/Tv#definirVolume(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desligar" id="command.tape0/Tv#desligar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ligar" id="command.tape0/Tv#ligar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Luz" location="360,267" size="91,85" id="command.tape0/Luz" runTimeClassModel="ligar(),desligar()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,36">
+      <children xsi:type="editmodel:MethodEditModel" name="desligar" id="command.tape0/Luz#desligar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ligar" id="command.tape0/Luz#ligar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Som" location="60,154" size="118,157" id="command.tape0/Som" runTimeClassModel="definirCD(),definirRadio(),definirDVD(),definirVolume(),ligar(),desligar()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,108">
+      <children xsi:type="editmodel:MethodEditModel" name="definirRadio" id="command.tape0/Som#definirRadio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="definirCD" id="command.tape0/Som#definirCD()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="definirDVD" id="command.tape0/Som#definirDVD()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="definirVolume" id="command.tape0/Som#definirVolume()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desligar" id="command.tape0/Som#desligar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ligar" id="command.tape0/Som#ligar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Ventilador" location="208,240" size="121,139" id="command.tape0/Ventilador" runTimeClassModel="definirMinimo(),definirMaximo(),getVelocidade(),definirMedio(),desligar()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,90">
+      <children xsi:type="editmodel:MethodEditModel" name="definirMaximo" id="command.tape0/Ventilador#definirMaximo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="definirMedio" id="command.tape0/Ventilador#definirMedio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="definirMinimo" id="command.tape0/Ventilador#definirMinimo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desligar" id="command.tape0/Ventilador#desligar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVelocidade" id="command.tape0/Ventilador#getVelocidade()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PortaDaGaragem" location="345,120" size="152,139" id="command.tape0/PortaDaGaragem" runTimeClassModel="ligarLuz(),abrir(),parar(),desligarLuz(),fechar()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,90">
+      <children xsi:type="editmodel:MethodEditModel" name="abrir" id="command.tape0/PortaDaGaragem#abrir()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desligarLuz" id="command.tape0/PortaDaGaragem#desligarLuz()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fechar" id="command.tape0/PortaDaGaragem#fechar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ligarLuz" id="command.tape0/PortaDaGaragem#ligarLuz()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parar" id="command.tape0/PortaDaGaragem#parar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

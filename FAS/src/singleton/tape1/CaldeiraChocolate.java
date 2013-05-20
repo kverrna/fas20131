@@ -11,7 +11,7 @@ public class CaldeiraChocolate {
 		fervido = false;
 	}
 	
-	public CaldeiraChocolate getInstance(){
+	public static CaldeiraChocolate getInstance(){
 		if (unicaInstancia == null){
 			unicaInstancia = new CaldeiraChocolate();
 		}

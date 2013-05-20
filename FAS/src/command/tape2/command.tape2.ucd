@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="873,396" id="command.tape2" metadata="uml2-1.0" initialized="true" zoom="1.3042071197411003" scrolledX="231" scrolledY="82" tag="1000" key="32303037303533312D31303030204641532F666162726963696F2E6272617A">
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.1/@sourceConnections.0" name="Command" location="705,105" size="107,99" id="command.tape2/Command" runTimeClassModel="undo(),execute()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,36">
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="command.tape2/Command#execute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="undo" id="command.tape2/Command#undo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Invoker" location="405,105" size="141,85" id="command.tape2/Invoker" runTimeClassModel="command,setCommand(Lcommand.tape2.Command;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="command" id="command.tape2/Invoker#command"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,18">
+      <children xsi:type="editmodel:MethodEditModel" name="setCommand" id="command.tape2/Invoker#setCommand(Lcommand.tape2.Command;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape2/Invoker-Soyatec::Import->command.tape2/Command" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,42"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.4/@sourceConnections.1" name="Receiver" location="435,330" size="98,67" id="command.tape2/Receiver" runTimeClassModel="action()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
+      <children xsi:type="editmodel:MethodEditModel" name="action" id="command.tape2/Receiver#action()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="ConcreteCommand" location="677,255" size="164,121" id="command.tape2/ConcreteCommand" runTimeClassModel="undo(),receiver,ConcreteCommand(Lcommand.tape2.Receiver;),execute()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="receiver" id="command.tape2/ConcreteCommand#receiver"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ConcreteCommand" id="command.tape2/ConcreteCommand#ConcreteCommand(Lcommand.tape2.Receiver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="command.tape2/ConcreteCommand#execute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="undo" id="command.tape2/ConcreteCommand#undo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="command.tape2/Command&lt;-command.tape2/ConcreteCommand" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,99"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape2/ConcreteCommand-Soyatec::Import->command.tape2/Receiver*command.tape2/ConcreteCommand-Standard::Call->command.tape2/Receiver" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,98" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,23"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Client" location="240,240" size="79,29" id="command.tape2/Client" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape2/Client-Standard::Instantiate->command.tape2/ConcreteCommand*command.tape2/Client-Soyatec::Import->command.tape2/ConcreteCommand" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,6"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape2/Client-Standard::Instantiate->command.tape2/Receiver*command.tape2/Client-Soyatec::Import->command.tape2/Receiver" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,7"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

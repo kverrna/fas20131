@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:SequenceDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="tape1" size="898,828" metadata="uml2-1.0" initialized="true" zoom="0.25" tag="1000" key="32303037303533312D31303030204641532F666162726963696F2E6272617A">
+  <children xsi:type="editmodel:InstanceEditModel" targetConnections="//@children.1/@children.0/@sourceConnections.0" name="ControleRemotoSimples" location="135,68" size="237,740" id="command.tape1/ControleRemotoSimples" itemName="controleRemoto" creatingActivation="//@children.0/@children.0" creation="true">
+    <children xsi:type="editmodel:ActivationEditModel" location="110,80" size="16,40" sequenceItemContainer="//@children.0"/>
+    <children xsi:type="editmodel:ActivationEditModel" location="110,311" size="16,319" sequenceItemContainer="//@children.0" recursiveChildren="//@children.0/@children.2 //@children.0/@children.3" length="319">
+      <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" source="//@children.0/@children.1" target="//@children.0/@children.2" targetEnd="//@children.0/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" associatedMethod="setCommand(luzLigar)" associatedSequenceNumber="2">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.1/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.1/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.1/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="setCommand(luzLigar)" size="108,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="2" size="6,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.1/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SelfSequenceMessageEditModel" name="botaoPressionado" id="command.tape1/ControleRemotoSimples#botaoPressionado()" source="//@children.0/@children.1" target="//@children.0/@children.3" targetEnd="//@children.0/@children.1/@sourceConnections.1/@children.1" sourceEnd="//@children.0/@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" associatedMethod="botaoPressionado()" associatedSequenceNumber="2" shouldShowReturnArrow="true">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="196,240" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.1/@sourceConnections.1/@children.0/@children.0" methodLabel="//@children.0/@children.1/@sourceConnections.1/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.1/@sourceConnections.1/@children.0/@children.2" statementExpression="//@children.0/@children.1/@sourceConnections.1/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="botaoPressionado()" size="95,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="2" size="6,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="16,0" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.0" methodLabel="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.2" statementExpression="//@children.0/@children.1/@sourceConnections.1/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+      </sourceConnections>
+    </children>
+    <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.0/@children.1/@sourceConnections.0" location="118,321" size="16,40" sequenceItemContainer="//@children.0" associatedActivation="//@children.0/@children.1" relativeLocation="8,10"/>
+    <children xsi:type="editmodel:RecursiveActivationEditModel" targetConnections="//@children.0/@children.1/@sourceConnections.1" location="118,561" size="16,69" sequenceItemContainer="//@children.0" length="69" associatedActivation="//@children.0/@children.1" relativeLocation="8,250">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="execute" id="command.tape1/Command#execute()" source="//@children.0/@children.3" target="//@children.3/@children.1" targetEnd="//@children.0/@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="execute()" associatedSequenceNumber="2.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="11,12" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.0/@children.3/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.0/@children.3/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.0/@children.3/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.0/@children.3/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="execute()" size="47,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="2.1" size="15,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.0/@children.3/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+      </sourceConnections>
+    </children>
+  </children>
+  <children xsi:type="editmodel:InstanceEditModel" name="ControleRemotoTest" location="56,20" size="241,788" id="command.tape1/ControleRemotoTest" itemName="ControleRemotoTest">
+    <children xsi:type="editmodel:ActivationEditModel" location="112,88" size="16,260" sequenceItemContainer="//@children.1" length="260">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="ControleRemotoSimples" id="command.tape1/ControleRemotoSimples#ControleRemotoSimples()" source="//@children.1/@children.0" target="//@children.0" targetEnd="//@children.1/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="ControleRemotoSimples()" associatedSequenceNumber="1" creation="true">
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.0/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.1/@children.0/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.0/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.1/@children.0/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="22,14" labelValue="new"/>
+          <children xsi:type="editmodel:LabelEditModel" name="ControleRemotoSimples()" size="121,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="1" size="6,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="0,40" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.0/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.1/@children.0/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.0/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.1/@children.0/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="Luz" id="command.tape1/Luz#Luz()" source="//@children.1/@children.0" target="//@children.2" targetEnd="//@children.1/@children.0/@sourceConnections.1/@children.1" sourceEnd="//@children.1/@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manual" associatedMethod="Luz()" associatedSequenceNumber="1" creation="true">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="8,90" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.0/@sourceConnections.1/@children.0/@children.0" methodLabel="//@children.1/@children.0/@sourceConnections.1/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.0/@sourceConnections.1/@children.0/@children.2" statementExpression="//@children.1/@children.0/@sourceConnections.1/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="22,14" labelValue="new"/>
+          <children xsi:type="editmodel:LabelEditModel" name="Luz()" size="26,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="1" size="6,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="0,40" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.0/@sourceConnections.1/@children.1/@children.0" methodLabel="//@children.1/@children.0/@sourceConnections.1/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.0/@sourceConnections.1/@children.1/@children.2" statementExpression="//@children.1/@children.0/@sourceConnections.1/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="LuzLigarCommand" id="command.tape1/LuzLigarCommand#LuzLigarCommand(Lcommand.tape1.Luz;)" source="//@children.1/@children.0" target="//@children.3" targetEnd="//@children.1/@children.0/@sourceConnections.2/@children.1" sourceEnd="//@children.1/@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manual" associatedMethod="LuzLigarCommand(Luz)" associatedSequenceNumber="1" creation="true">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="6,180" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.1/@children.0/@sourceConnections.2/@children.0/@children.0" methodLabel="//@children.1/@children.0/@sourceConnections.2/@children.0/@children.1" sequenceNumberLabel="//@children.1/@children.0/@sourceConnections.2/@children.0/@children.2" statementExpression="//@children.1/@children.0/@sourceConnections.2/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="22,14" labelValue="new"/>
+          <children xsi:type="editmodel:LabelEditModel" name="LuzLigarCommand(Luz)" size="115,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="1" size="6,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" location="0,40" anchorKind="FixedAtEdge" userLabel="//@children.1/@children.0/@sourceConnections.2/@children.1/@children.0" methodLabel="//@children.1/@children.0/@sourceConnections.2/@children.1/@children.1" sequenceNumberLabel="//@children.1/@children.0/@sourceConnections.2/@children.1/@children.2" statementExpression="//@children.1/@children.0/@sourceConnections.2/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+      </sourceConnections>
+    </children>
+  </children>
+  <children xsi:type="editmodel:InstanceEditModel" targetConnections="//@children.1/@children.0/@sourceConnections.1" name="Luz" location="595,158" size="100,650" id="command.tape1/Luz" itemName="luz" creatingActivation="//@children.2/@children.0" creation="true">
+    <children xsi:type="editmodel:ActivationEditModel" location="42,80" size="16,40" sequenceItemContainer="//@children.2"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.3/@children.1/@sourceConnections.0" location="42,500" size="16,40" sequenceItemContainer="//@children.2"/>
+  </children>
+  <children xsi:type="editmodel:InstanceEditModel" targetConnections="//@children.1/@children.0/@sourceConnections.2" name="LuzLigarCommand" location="690,248" size="176,560" id="command.tape1/LuzLigarCommand" itemName="luzLigar" creatingActivation="//@children.3/@children.0" creation="true">
+    <children xsi:type="editmodel:ActivationEditModel" location="80,80" size="16,40" sequenceItemContainer="//@children.3"/>
+    <children xsi:type="editmodel:ActivationEditModel" targetConnections="//@children.0/@children.3/@sourceConnections.0" location="80,393" size="16,57" sequenceItemContainer="//@children.3" length="57">
+      <sourceConnections xsi:type="editmodel:SequenceMessageEditModel" name="ligar" id="command.tape1/Luz#ligar()" source="//@children.3/@children.1" target="//@children.2/@children.1" targetEnd="//@children.3/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="ligar()" associatedSequenceNumber="2.1.1">
+        <children xsi:type="editmodel:SequenceEndEditModel" location="5,17" anchorKind="FixedAtEdge" attachSource="true" userLabel="//@children.3/@children.1/@sourceConnections.0/@children.0/@children.0" methodLabel="//@children.3/@children.1/@sourceConnections.0/@children.0/@children.1" sequenceNumberLabel="//@children.3/@children.1/@sourceConnections.0/@children.0/@children.2" statementExpression="//@children.3/@children.1/@sourceConnections.0/@children.0/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="ligar()" size="28,14"/>
+          <children xsi:type="editmodel:LabelEditModel" name="2.1.1" size="24,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+        <children xsi:type="editmodel:SequenceEndEditModel" anchorKind="FixedAtEdge" userLabel="//@children.3/@children.1/@sourceConnections.0/@children.1/@children.0" methodLabel="//@children.3/@children.1/@sourceConnections.0/@children.1/@children.1" sequenceNumberLabel="//@children.3/@children.1/@sourceConnections.0/@children.1/@children.2" statementExpression="//@children.3/@children.1/@sourceConnections.0/@children.1/@children.3">
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:LabelEditModel" size="0,14"/>
+          <children xsi:type="editmodel:MessageLabelEditModel" size="0,14"/>
+        </children>
+      </sourceConnections>
+    </children>
+  </children>
+  <diagramOptions xsi:type="options:SequenceDiagramOptions" level="0" properties="Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <sequenceDiagramPreferences showPopupBars="true" showConnectionHandles="true"/>
+</editmodel:SequenceDiagramEditModel>
