@@ -118,9 +118,26 @@ public class ControleRemotoRamonTest {
 	public void testaInvokers()
 	{
 		
+		ControleRemoto controleRemoto=new ControleRemoto();
 		
+		Assert.assertNotNull(controleRemoto.getClass().getName());
 		
+		Ventilador ventilador= new Ventilador("string");
 		
+		VentiladorDesligarCommand ventiladorDesliga = new VentiladorDesligarCommand(ventilador);
+		VentiladorLigarCommand ventiladorLiga = new VentiladorLigarCommand(ventilador);
+	
+		controleRemoto.setCommand(1, ventiladorLiga, ventiladorDesliga);
+		
+		controleRemoto.botaoLigarPressionado(1);
+		Assert.assertEquals(3, ventilador.getVelocidade());
+		
+		controleRemoto.botaoDesligarPressionado(1);
+		Assert.assertEquals(0, ventilador.getVelocidade());
+		
+		controleRemoto.botaoDesfazerDesligar(1);
+		Assert.assertEquals(3, ventilador.getVelocidade());
+	
 	}
 
 }

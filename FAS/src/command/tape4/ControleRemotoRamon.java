@@ -64,15 +64,3 @@ public class ControleRemotoRamon
 	}
 }
 
-/* Dionlan ideia 
-public void botaoDesfazerPressionado(int posicao)
-{
-	if (commandsLigar.equals(true))
-	{
-		commandsDesligar[posicao].execute();
-	}else
-	{
-		commandsLigar[posicao].execute();
-	}
-}
-*/

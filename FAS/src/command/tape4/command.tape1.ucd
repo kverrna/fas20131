@@ -10,14 +10,14 @@
       <children xsi:type="editmodel:MethodEditModel" name="setCommand" id="command.tape1/ControleRemotoSimples#setCommand(Lcommand.tape1.Command;)"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape1/ControleRemotoSimples-Standard::Call->command.tape1/Command*command.tape1/ControleRemotoSimples-Soyatec::Import->command.tape1/Command" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape1/ControleRemotoSimples->Standard::Call" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
       <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="210,80" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,40"/>
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.4/@sourceConnections.0" name="Luz" location="554,285" size="91,103" id="command.tape1/Luz" runTimeClassModel="Luz(),ligar(),desligar()">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.4/@sourceConnections.0" name="Luz" location="554,285" size="91,103" id="command.tape1/Luz" runTimeClassModel="ligar(),Luz(),desligar()">
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="68,54">
       <children xsi:type="editmodel:MethodEditModel" name="Luz" id="command.tape1/Luz#Luz()"/>
@@ -35,7 +35,7 @@
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="LuzLigarCommand" location="870,194" size="163,103" id="command.tape1/LuzLigarCommand" runTimeClassModel="luz,LuzLigarCommand(Lcommand.tape1.Luz;),execute()">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="LuzLigarCommand" location="870,194" size="163,103" id="command.tape1/LuzLigarCommand" runTimeClassModel="luz,execute(),LuzLigarCommand(Lcommand.tape1.Luz;)">
     <children xsi:type="editmodel:CompartmentEditModel" size="57,18">
       <children xsi:type="editmodel:AttributeEditModel" name="luz" id="command.tape1/LuzLigarCommand#luz"/>
     </children>
@@ -48,7 +48,7 @@
       <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="53,81" anchorKind="FixedAtEdge"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape1/LuzLigarCommand-Soyatec::Import->command.tape1/Luz*command.tape1/LuzLigarCommand-Standard::Call->command.tape1/Luz" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape1/LuzLigarCommand->Soyatec::Import" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
       <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,96" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="91,5"/>
@@ -59,12 +59,12 @@
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape1/ControleRemotoTest-Standard::Instantiate->command.tape1/Luz*command.tape1/ControleRemotoTest-Soyatec::Import->command.tape1/Luz" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape1/ControleRemotoTest->Standard::Instantiate" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
       <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" size="96,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="113,29" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,27"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape1/ControleRemotoTest-Standard::Instantiate->command.tape1/LuzLigarCommand*command.tape1/ControleRemotoTest-Soyatec::Import->command.tape1/LuzLigarCommand" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="command.tape1/ControleRemotoTest->Standard::Instantiate" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
       <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" size="96,14" anchorKind="MiddlePart"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="170,15" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,14"/>
