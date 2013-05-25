@@ -31,8 +31,16 @@ public class ControleRemotoRamonTest {
 		luz.desligar();
 		portaGaragem.abrir();
 		portaGaragem.fechar();
+		portaGaragem.ligarLuz();
+		portaGaragem.desligarLuz();
+		portaGaragem.parar();
 		som.definirCD();
 		som.definirVolume(12);
+		som.definirDVD();
+		som.definirRadio();
+		som.ligar();
+		som.desligar();
+		
 		
 		Assert.assertEquals(12, som.getVolume());
 		som.desligar();
@@ -128,6 +136,7 @@ public class ControleRemotoRamonTest {
 		VentiladorLigarCommand ventiladorLiga = new VentiladorLigarCommand(ventilador);
 	
 		controleRemoto.setCommand(1, ventiladorLiga, ventiladorDesliga);
+		controleRemoto.toString();
 		
 		controleRemoto.botaoLigarPressionado(1);
 		Assert.assertEquals(3, ventilador.getVelocidade());
@@ -137,7 +146,27 @@ public class ControleRemotoRamonTest {
 		
 		controleRemoto.botaoDesfazerDesligar(1);
 		Assert.assertEquals(3, ventilador.getVelocidade());
+		
+		
 	
+	}
+	@Test
+	public void testaOutrasClasses()
+	{
+		CarregarControle carregar = new CarregarControle();
+		carregar.main(null);
+		CommandVazio command = new CommandVazio();
+		command.execute();
+		command.undo();
+		
+		ControleRemotoSimples controleSimples = new ControleRemotoSimples();
+		controleSimples.setCommand(command);
+		controleSimples.botaoPressionado();
+		
+		ControleRemotoRamon controleRamon = new ControleRemotoRamon();
+		controleRamon.main(null);
+		
+		
 	}
 
 }

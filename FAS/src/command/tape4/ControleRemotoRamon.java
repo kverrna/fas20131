@@ -36,7 +36,7 @@ public class ControleRemotoRamon
 		controleRamon.setCommand(1, luzSalaEstarLigar, luzSalaEstarDesligar);
 		controleRamon.setCommand(2, luzCozinhaLigar, luzCozinhaDesligar);
 		controleRamon.setCommand(3, somLigar, somDesligar);// Som para incomodar o bairro inteiro 
-		controleRamon.setCommand(4, ventiladorLigarComando, ventiladorDesligarComando);// o trem vai pegar fogo.. liga e ventilador no máximo
+		controleRamon.setCommand(4, ventiladorLigarComando, ventiladorDesligarComando);// o trem vai pegar fogo.. liga e ventilador no maximo
 		
 		
 		

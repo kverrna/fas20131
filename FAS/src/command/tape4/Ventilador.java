@@ -20,7 +20,7 @@ public class Ventilador {
 	{
 		velocidadeAnterior=velocidade;
 		velocidade = MAXIMO;
-		System.out.println("Ventilador na velocidade máxima");
+		System.out.println("Ventilador na velocidade maxima");
 		
 	}
 
@@ -28,14 +28,14 @@ public class Ventilador {
 	{
 		velocidadeAnterior=velocidade;
 		velocidade = MINIMO;
-		System.out.println("Ventilador na velocidade mínima");
+		System.out.println("Ventilador na velocidade minima");
 	}
 
 	public void definirMedio() 
 	{
 		velocidadeAnterior=velocidade;
 		velocidade = MEDIO;
-		System.out.println("Ventilador na velocidade média");
+		System.out.println("Ventilador na velocidade media");
 	}
 
 	public void desligar() 
