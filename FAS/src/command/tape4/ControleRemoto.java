@@ -3,30 +3,41 @@ package command.tape4;
 public class ControleRemoto {
 	private Command[] commandsLigar;
 	private Command[] commandsDesligar;
-
-	public ControleRemoto() {
+	
+	
+	public ControleRemoto() 
+	{
 		commandsLigar = new Command[7];
 		commandsDesligar = new Command[7];
-
+		
 		Command commandVazio = new CommandVazio();
-		for (int i = 0; i < 7; i++) {
+		for (int i = 0; i < 7; i++) 
+		{
+			
 			commandsLigar[i] = commandVazio;
 			commandsDesligar[i] = commandVazio;
+		
 		}
 	}
 
-	public void setCommand(int posicao, Command commandLigar,
-			Command commandDesligar) {
+	public void setCommand(int posicao, Command commandLigar,Command commandDesligar) 
+	{
 		commandsLigar[posicao] = commandLigar;
 		commandsDesligar[posicao] = commandDesligar;
 	}
 
-	public void botaoLigarPressionado(int posicao) {
+	public void botaoLigarPressionado(int posicao) 
+	{
 		commandsLigar[posicao].execute();
 	}
 
-	public void botaoDesligarPressionado(int posicao) {
+	public void botaoDesligarPressionado(int posicao) 
+	{
 		commandsDesligar[posicao].execute();
+	}
+	public void botaoDesfazerDesligar(int posicao)
+	{
+		commandsDesligar[posicao].undo();
 	}
 
 	public String toString(){
@@ -40,4 +51,5 @@ public class ControleRemoto {
 		}
 		return stringBuffer.toString();
 	}
+	
 }

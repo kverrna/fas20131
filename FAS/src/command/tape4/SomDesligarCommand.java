@@ -12,6 +12,13 @@ public class SomDesligarCommand implements Command {
 	public void execute() {
 		som.desligar();
 	}
+	
+	public void undo()
+	{
+		som.ligar();
+		som.definirCD();
+		som.definirVolume(15);
+	}
 
 }
 

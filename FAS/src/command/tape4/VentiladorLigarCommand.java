@@ -9,8 +9,13 @@ public class VentiladorLigarCommand implements Command {
 	}
 	
 	@Override
-	public void execute() {
+	public void execute() 
+	{
 		ventilador.definirMaximo();
+	}
+	public void undo()
+	{
+		ventilador.desligar();
 	}
 
 }

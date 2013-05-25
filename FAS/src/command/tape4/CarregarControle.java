@@ -12,35 +12,24 @@ public class CarregarControle {
 		Som som = new Som();
 
 		LuzLigarCommand luzDaSalaLigarCommand = new LuzLigarCommand(luzDaSala);
-		LuzDesligarCommand luzDaSalaDesligarCommand = new LuzDesligarCommand(
-				luzDaSala);
+		LuzDesligarCommand luzDaSalaDesligarCommand = new LuzDesligarCommand(luzDaSala);
 
-		LuzLigarCommand luzDaCozinhaLigarCommand = new LuzLigarCommand(
-				luzDaCozinha);
-		LuzDesligarCommand luzDaCozinhaDesligarCommand = new LuzDesligarCommand(
-				luzDaCozinha);
+		LuzLigarCommand luzDaCozinhaLigarCommand = new LuzLigarCommand(luzDaCozinha);
+		LuzDesligarCommand luzDaCozinhaDesligarCommand = new LuzDesligarCommand(luzDaCozinha);
 
-		VentiladorLigarCommand ventiladorLigarCommand = new VentiladorLigarCommand(
-				ventilador);
-		VentiladorDesligarCommand ventiladorDesligarCommand = new VentiladorDesligarCommand(
-				ventilador);
+		VentiladorLigarCommand ventiladorLigarCommand = new VentiladorLigarCommand(ventilador);
+		VentiladorDesligarCommand ventiladorDesligarCommand = new VentiladorDesligarCommand(ventilador);
 
-		PortaDaGaragemAbrirCommand portaDaGaragemAbrirCommand = new PortaDaGaragemAbrirCommand(
-				portaDaGaragem);
-		PortaDaGaragemFecharCommand portaDaGaragemFecharCommand = new PortaDaGaragemFecharCommand(
-				portaDaGaragem);
+		PortaDaGaragemAbrirCommand portaDaGaragemAbrirCommand = new PortaDaGaragemAbrirCommand(portaDaGaragem);
+		PortaDaGaragemFecharCommand portaDaGaragemFecharCommand = new PortaDaGaragemFecharCommand(portaDaGaragem);
 
 		SomComCDCommand somComCDCommand = new SomComCDCommand(som);
 		SomDesligarCommand somDesligarCommand = new SomDesligarCommand(som);
 
-		controleRemoto.setCommand(0, luzDaSalaLigarCommand,
-				luzDaSalaDesligarCommand);
-		controleRemoto.setCommand(1, luzDaCozinhaLigarCommand,
-				luzDaCozinhaDesligarCommand);
-		controleRemoto.setCommand(2, ventiladorLigarCommand,
-				ventiladorDesligarCommand);
-		controleRemoto.setCommand(3, portaDaGaragemAbrirCommand,
-				portaDaGaragemFecharCommand);
+		controleRemoto.setCommand(0, luzDaSalaLigarCommand,luzDaSalaDesligarCommand);
+		controleRemoto.setCommand(1, luzDaCozinhaLigarCommand,luzDaCozinhaDesligarCommand);
+		controleRemoto.setCommand(2, ventiladorLigarCommand,ventiladorDesligarCommand);
+		controleRemoto.setCommand(3, portaDaGaragemAbrirCommand,portaDaGaragemFecharCommand);
 		controleRemoto.setCommand(4, somComCDCommand, somDesligarCommand);
 
 		System.out.println(controleRemoto);

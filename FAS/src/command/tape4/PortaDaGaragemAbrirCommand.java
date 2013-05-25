@@ -7,7 +7,13 @@ public class PortaDaGaragemAbrirCommand implements Command {
 		this.portaDaGaragem = portaDaGaragem;
 	}
 
-	public void execute() {
+	public void execute()
+	{
 		portaDaGaragem.abrir();
+	}
+	
+	public void undo()
+	{
+		portaDaGaragem.fechar();
 	}
 }

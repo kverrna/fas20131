@@ -10,4 +10,8 @@ public class PortaDaGaragemFecharCommand implements Command {
 	public void execute() {
 		portaDaGaragem.fechar();
 	}
+	public void undo()
+	{
+		portaDaGaragem.abrir();
+	}
 }

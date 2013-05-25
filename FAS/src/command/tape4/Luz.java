@@ -7,10 +7,10 @@ public class Luz {
 		this.local = local;
 	}
 	public void ligar() {
-		System.out.println("Luz ligada");
+		System.out.println("Luz "+local+" ligada");
 	}
 	public void desligar() {
-		System.out.println("Luz desligada");
+		System.out.println("Luz "+local+" desligada");
 	}
 	public String getLocal(){
 		return local;

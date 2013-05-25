@@ -12,7 +12,11 @@ public class SomComCDCommand implements Command {
 	public void execute() {
 		som.ligar();
 		som.definirCD();
-		som.definirVolume(15);
+		som.definirVolume(200);
+	}
+	public void undo()
+	{
+		som.desligar();
 	}
 
 }

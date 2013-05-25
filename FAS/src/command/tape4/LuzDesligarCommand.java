@@ -10,4 +10,9 @@ public class LuzDesligarCommand implements Command {
 	public void execute() {
 		luz.desligar();
 	}
+	
+	public void undo()
+	{
+		luz.ligar();
+	}
 }

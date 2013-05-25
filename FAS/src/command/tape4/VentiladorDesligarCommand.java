@@ -13,5 +13,20 @@ public class VentiladorDesligarCommand implements Command {
 		ventilador.desligar();
 
 	}
+	public void undo()
+	{
+		if(ventilador.getVelocidadeAnterior()<0) ventilador.definirMaximo();
+		else
+		{
+			switch(ventilador.getVelocidadeAnterior())
+			{
+			case 1:ventilador.definirMinimo();System.out.println("Ventilador religado na velocidade Minima");break;
+			case 2:ventilador.definirMedio();System.out.println("Ventilador religado na velocidade Media");break;
+			case 3:ventilador.definirMaximo();System.out.println("Ventilador religado na Maxima");break;
+			 
+			}
+		
+		}
+	}
 
 }
