@@ -6,14 +6,14 @@ public class Ventilador {
 	public static final int MINIMO = 1;
 	public static final int DESLIGADO = 0;
 	
-	int velocidade;
-	int velocidadeAnterior;
-	String local;
+	private int velocidade;
+	private int velocidadeAnterior;
+	private String local;
 	
 	public Ventilador(String local)
 	{
 		this.local = local;
-		velocidadeAnterior=-1;
+		velocidade=-1;
 	}
 	
 	public void definirMaximo() 
@@ -52,6 +52,9 @@ public class Ventilador {
 	{
 		return velocidadeAnterior;
 	}
-
+	public String getLocal()
+	{
+		return local;
+	}
 
 }

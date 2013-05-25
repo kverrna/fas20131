@@ -25,7 +25,7 @@ public class VentiladorDesligarCommand implements Command {
 			case 3:ventilador.definirMaximo();System.out.println("Ventilador religado na Maxima");break;
 			 
 			}
-		
+			
 		}
 	}
 

@@ -26,5 +26,9 @@ public class Som {
 		this.volume= volume;
 		System.out.println("Volume "+ volume);
 	}
+	public int getVolume()
+	{
+		return volume;
+	}
 
 }
